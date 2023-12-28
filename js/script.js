@@ -20,11 +20,6 @@ $(function () {
     on: {
       slideChange: function () {
         const sIdx = this.realIndex;
-        // console.log(this);
-
-        const slideInfo = $('.slide-info li');
-        slideInfo.removeClass('active');
-        slideInfo.eq(sIdx).addClass('active');
       },
     },
   });

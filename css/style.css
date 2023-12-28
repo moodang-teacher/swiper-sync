@@ -66,12 +66,7 @@ img {
   left: 0;
   width: 100%;
   border: 1px solid #000;
-  opacity: 0;
-  transition: 0.4s;
-}
-
-.slide-info li.active {
-  opacity: 1;
+  /* visibility: hidden; */
 }
 
 .slide-info li dl dt {
